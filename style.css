@@ -1,0 +1,116 @@
+/*colors and fonts*/
+
+body{
+	background-image: url("https://framapiaf.s3.framasoft.org/framapiaf/media_attachments/files/000/054/932/original/36f955e963a448e6.jpg");
+	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size: 2000px;
+  	background-color: rgb(255,250,250);
+  	margin: 20px 0;
+	color: #696969;
+	font-family: 'Roboto', serif;
+	font-size: 16px;
+	font font-weight: 500px;
+	text-align: center;
+}
+
+
+h1{
+	color: #B8860B;
+	font-family:'Lora', sans-serif;
+	font-weight: 100px;
+	letter-spacing: 5px;
+	font-size: 30px;
+	text-align: center;
+}
+
+h2{
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 300px;
+	text-align: center;
+}
+
+div{
+	background: white;
+	border: 1px solid black;
+	margin: 5px;
+}
+
+/*Custom design with class (99% of your design)*/
+.container {
+	width: 700px;
+	margin: 40px auto;
+} 
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px; 
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px; 
+	}
+}
+
+	
+.
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 10%;
+}
+
+.btn-red{
+	cursor:pointer;
+	background-color: #B8860B;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+	border: 0px; 
+}
+
+.btn-red:hover {
+	opacity: 0.8;
+}
+
+.list-inline: {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #B8860B;
+}
+
+.list-inline i:hover {
+	opacity: 0.8;
+}
+
+/*Design adjustments using id (1% design remaining) */
+
+#introduction p {
+	margin-bottom: 40px;
+}
